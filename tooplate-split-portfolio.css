@@ -14,13 +14,13 @@ https://www.tooplate.com/view/2154-split-portfolio
 }
 
 :root {
-	--bg-dark: #2d2d2d;
-	--bg-light: #383838;
-	--bg-header: #242424;
+	--bg-dark: #22223B;
+	--bg-light: #4A4E69;
+	--bg-header: #9A8C98;
 	--text-primary: #ffffff;
-	--text-secondary: #9a9a9a;
-	--accent: #ff3366;
-	--accent-hover: #ff5580;
+	--text-secondary: #ffffff;
+	--accent: #C9ADA7;
+	--accent-hover: #F2E9E4;
 }
 
 html {
@@ -28,7 +28,7 @@ html {
 }
 
 body {
-	font-family: 'Archivo', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background: var(--bg-dark);
 	color: var(--text-primary);
 	overflow-x: hidden;
@@ -45,7 +45,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	z-index: 1000;
-	background: rgba(36, 36, 36, 0.95);
+	background: #22223B (36, 36, 36, 0.95);
 	backdrop-filter: blur(10px);
 }
 
@@ -69,6 +69,20 @@ header {
 .logo-icon {
 	width: 40px;
 	height: 40px;
+}
+
+.logo-icon circle:first-of-type {
+	fill: none;
+	stroke: #C9ADA7;
+}
+
+.logo-icon path {
+	fill: none;
+	stroke: #C9ADA7;
+}
+
+.logo-icon circle:last-of-type {
+	fill: #C9ADA7;
 }
 
 .desktop-nav {
@@ -289,7 +303,7 @@ header {
 }
 
 .image-container:nth-child(1) .project-image {
-	background-image: url('https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=1000&fit=crop');
+	background-image: url('SimplerCare App.png');
 }
 
 .image-container:nth-child(2) .project-image {
@@ -428,6 +442,27 @@ header {
 	transform: translateX(10px);
 }
 
+.resume-btn {
+	display: inline-block;
+	padding: 1rem 2.5rem;
+	background: transparent;
+	color: var(--text-primary);
+	border: 2px solid var(--text-primary);
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	transition: all 0.3s ease;
+	margin-top: 2rem;
+}
+
+.resume-btn:hover {
+	background: var(--accent);
+	border-color: var(--accent);
+	transform: translateY(-2px);
+}
+
 /* Navigation Arrows */
 .navigation {
 	position: absolute;
@@ -542,10 +577,10 @@ header {
 
 /* About Section */
 .about-section {
-	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	padding: 100px 5%;
+	margin-top: 25rem;
 }
 
 .about-split {
@@ -554,7 +589,7 @@ header {
 	gap: 5rem;
 	max-width: 1400px;
 	margin: 0 auto;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .about-image {
@@ -956,8 +991,8 @@ header {
 }
 
 .social-link {
-	width: 50px;
-	height: 50px;
+	width: auto;
+	padding: 0.75rem 1.5rem;
 	background: rgba(255, 255, 255, 0.05);
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	display: flex;
@@ -1042,7 +1077,7 @@ footer {
 	text-align: center;
 	font-size: 0.85rem;
 	color: var(--text-secondary);
-	background: rgba(36, 36, 36, 0.95);
+	background: #22223B(36, 36, 36, 0.95);
 	backdrop-filter: blur(10px);
 }
 
