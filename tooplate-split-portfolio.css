@@ -307,19 +307,19 @@ header {
 }
 
 .image-container:nth-child(2) .project-image {
-	background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=1000&fit=crop');
+	background-image: url('Michigan Government Management Information Sciences.png');
 }
 
 .image-container:nth-child(3) .project-image {
-	background-image: url('https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=1000&fit=crop');
+	background-image: url('Study Hive 2.png');
 }
 
 .image-container:nth-child(4) .project-image {
-	background-image: url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=1000&fit=crop');
+	background-image: url('ProVisions Low-fid Prototype (1).png');
 }
 
 .image-container:nth-child(5) .project-image {
-	background-image: url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800&h=1000&fit=crop');
+	background-image: url('Youth Phone 2.png');
 }
 
 .right-panel {
@@ -595,7 +595,7 @@ header {
 .about-image {
 	position: relative;
 	aspect-ratio: 3/4;
-	background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop');
+	background-image: url('Headshot cropped.JPG');
 	background-size: cover;
 	background-position: center;
 	display: flex;
