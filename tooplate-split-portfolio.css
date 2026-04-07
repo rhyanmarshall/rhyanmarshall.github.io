@@ -1081,6 +1081,52 @@ footer {
 	backdrop-filter: blur(10px);
 }
 
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.footer-initials {
+	font-family: 'Crimson Pro', serif;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--accent);
+}
+
+.footer-nav ul {
+	display: flex;
+	list-style: none;
+	gap: 2rem;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-nav a {
+	color: var(--text-secondary);
+	text-decoration: none;
+	font-size: 0.9rem;
+	transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+	color: var(--accent);
+}
+
+.footer-email a {
+	color: var(--accent);
+	text-decoration: none;
+	font-size: 0.9rem;
+	transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+	color: var(--accent-hover);
+}
+
 footer a {
 	color: var(--accent);
 	text-decoration: none;
@@ -1178,6 +1224,18 @@ footer a:hover {
 
 	footer {
 		position: relative;
+	}
+
+	.footer-content {
+		flex-direction: column;
+		text-align: center;
+		gap: 1.5rem;
+	}
+
+	.footer-nav ul {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 1.5rem;
 	}
 
 	.about-split,
